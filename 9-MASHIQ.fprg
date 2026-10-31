@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="9-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 08:43:48 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjQwOjMwIEFNOzI5Mjg="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjQwOjU2IEFNOzU7VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjM0OjQ0IEFNOzYwNDM="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjQzOjQ4IEFNOzE7MzA0OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, F, J" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-Fandan toplagan bali&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;2-Fandan toplagan bali&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;3-Fandan toplagan bali&quot;" newline="True"/>
+            <input variable="C"/>
+            <output expression="&quot;4-Fandan toplagan bali&quot;" newline="True"/>
+            <input variable="D"/>
+            <output expression="&quot;5-Fandan toplagan bali&quot;" newline="True"/>
+            <input variable="F"/>
+            <assign variable="J" expression="A+B+C+D+F"/>
+            <output expression="J" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

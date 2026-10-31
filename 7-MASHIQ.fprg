@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="7-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 08:29:55 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjIyOjA5IEFNOzI5MzQ="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjI5OjU1IEFNOzE7MzA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;n ni kiriting&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n&gt;=0">
+                <output expression="n" newline="True"/>
+                <assign variable="n" expression="n-2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

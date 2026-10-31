@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 08:16:12 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjA1OjQwIEFNOzI5MzA="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjE2OjEyIEFNOzE7MzAzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="xarajat, jami" type="Real" array="False" size=""/>
+            <assign variable="jami" expression="0"/>
+            <for variable="i" start="1" end="7" direction="inc" step="1">
+                <output expression="&quot; - kun xarajatni kiriting&quot;" newline="True"/>
+                <input variable="xarajat"/>
+                <assign variable="jami" expression="jami +xarajat"/>
+            </for>
+            <output expression="&quot;Haftalik xarajat: &quot; &amp; jami" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

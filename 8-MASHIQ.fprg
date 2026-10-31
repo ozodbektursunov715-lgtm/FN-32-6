@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="8-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 08:34:40 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjI5OjU5IEFNOzI5NDY="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjM0OjQwIEFNOzE7MzA0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="1" end="50" direction="inc" step="1">
+                <if expression="n%5==0">
+                    <then>
+                        <output expression="n" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

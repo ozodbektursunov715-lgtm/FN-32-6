@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 07:49:45 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA3OjMzOjU4IEFNOzI5Mzk="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA3OjQ5OjQ1IEFNOzE7MzA1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="isim" type="String" array="False" size=""/>
+            <output expression="&quot;ISIMNI KKIRITING&quot;" newline="True"/>
+            <input variable="isim"/>
+            <for variable="a" start="1" end="5" direction="inc" step="1">
+                <output expression="isim" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

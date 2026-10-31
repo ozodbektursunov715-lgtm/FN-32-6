@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="10-MASHIQ"/>
+        <attribute name="authors" value="VictuS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-31 08:50:26 AM"/>
+        <attribute name="created" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjQ0OjA3IEFNOzI5MzY="/>
+        <attribute name="edited" value="VmljdHVTO0xBUFRPUC1MTVQwTEY1RjsyMDI2LTEwLTMxOzA4OjUwOjI2IEFNOzE7MzA0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="MAXFIY, SON" type="Integer" array="False" size=""/>
+            <assign variable="MAXFIY" expression="7"/>
+            <output expression="&quot;SONNI KIRITING&quot;" newline="True"/>
+            <input variable="SON"/>
+            <while expression="SON!=MAXFIY">
+                <output expression="&quot;XATO YANA KIRITING&quot;" newline="True"/>
+                <input variable="SON"/>
+            </while>
+            <output expression="&quot; TOPDINGIZ&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
